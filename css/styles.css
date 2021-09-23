@@ -1,0 +1,182 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+	background-color:#ff4c68;
+	font-family:'Merriweather', serif;
+	font-weight:400;
+	line-height:1.6;
+}
+
+.navbar{
+	padding:5%;
+	font-size:1.5rem;
+}
+#brand{
+	text-decoration:none;
+	color:#fff;
+	font-size:4rem;
+	font-weight:700;
+}
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgba(255,255,255,0);
+}
+.navbar li {
+	float: left;
+}
+.navbar li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 14px 16px;
+	border-radius:2rem;
+	text-decoration: none;
+}
+.navbar li a:hover {
+	background-color: #ef8172;
+}
+.title-row{
+	position:relative;
+	padding:7% 0 15% 0;
+}
+.btn-title{
+	margin:5%;
+}
+#meet-heading{
+	margin:0 0 5% 5%;
+}
+.phone-img{
+	transform:rotate(18deg);
+	width: 45%;
+    left: 100px;
+    position: absolute;
+    z-index: 0;
+}
+h1#meet-heading{
+	color:#fff;
+	font-size:3.4rem;
+}
+div.featureBox{
+	margin:0;
+	position:relative;
+	color:#000;
+}
+div.featureBox h3{
+	font-family:'Merriweather', serif;
+	font-weight:700;
+}
+div.featureBox p{
+	font-size:1.2rem;
+	font-weight:400;
+	font-family:'Merriweather',serif;
+}
+section#features{
+	position:relative;
+	display: flex;
+	width:100%;
+	background-color:#fff;
+	padding: 10% 4%;
+	flex-direction:row;
+	justify-content: space-around;
+	margin:0;
+	text-align:center;
+}
+div#titleDownload{
+	float:left;
+}
+section#press{
+	display: flex;
+	width:100%;
+	background-color:#ef8172;
+	padding: 10% 4%;
+	flex-direction:row;
+	justify-content: space-around;
+	margin:0;
+	text-align:center;
+}
+section#press img{
+	width:15%;
+	height:15%;
+}
+section#testimonials{
+	position:relative;
+	background-color:#ef8172;
+}
+section#testimonials img{
+	border-radius:100%;
+	width:15%;
+	height:15%;
+	display:flex;
+	margin:auto;
+}
+section#testimonials h2{
+	font-size:2.4rem;
+	text-align:center;
+	padding-top:10%;
+	color:#fff;
+	margin:auto;
+	margin-bottom:5%;
+}
+section#testimonials em{
+	color:#fff;
+	margin:35%;
+}
+#testimonial-text h2{
+	font-size:3rem;
+	text-align:center;
+}
+
+div#imageTitle img{
+	width:80%;
+}
+div#imageTitle{
+	transform:rotate(20deg);
+	margin-left:50%;
+	margin-top:20%;
+}
+.btn-card{
+	padding:2% 20%;
+	border-radius:5px;
+	border-style:none;
+	background-color:#666;
+}
+section#pricing{
+	font-family:'Merriweather',serif;
+	background-color:#fff;
+	padding:14% 0 14% 0;
+	margin:0;
+}
+div#pricingHeader{
+	text-align:center;
+	color:#000;
+	margin-bottom:3%;
+}
+div#pricingHeader h2{
+	font-weight:700;
+}
+section#cta{
+	background-color:#ff4c68;
+	color:#fff;
+	padding:15%;
+	text-align:center;
+}
+section#cta h3{
+	font-size:2.4rem;
+}
+section#cta button{
+	margin:5%;
+}
+footer{
+	background-color:#fff;
+	padding:15%;
+	text-align:center;
+}
+footer a{
+	color:#000;
+	text-decoration:none;
+}
